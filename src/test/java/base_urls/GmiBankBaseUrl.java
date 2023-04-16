@@ -17,6 +17,7 @@ public class GmiBankBaseUrl {
                 addHeader("Authorization", "Bearer " + gmiBankToken()).
                 setBaseUri("https://www.gmibank.com").
                 build();
+        String x= "";
     }
 }
 
